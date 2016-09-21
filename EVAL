@@ -1,0 +1,44 @@
+Script started on Fri 26 Feb 2016 06:27:08 AM EST
+Copying sudoku.cc ... done
+Copying sudokuboard.h ... done
+Copying sudokuboard.cc ... done
+Copying stack.h ... done
+Copying stack.cc ... done
+Copying makefile ... done
+Files copied to sandbox
+Copying harness directory
+Test harness copied to sandbox
+Compiling...
+g++ -c sudokuboard.cc
+g++ -c sudoku.cc
+g++ -c stack.cc
+g++ -o sudoku sudoku.o sudokuboard.o stack.o
+in-solved...solved board : requires no computation at all
+Test passed
+
+in-trivial...trivial board : one numeral missing in nine places
+Test passed
+
+in-sample...the sample input
+Test passed
+
+in-easy...An easy puzzle (#24, Kappa Puzzles, Nov. 2007) 
+Test passed
+
+in-hard...A hard puzzle
+Test passed
+
+in-hardestq...A harder puzzle
+Test passed
+
+in-hardestp...An even harder puzzle
+Test passed
+
+in-aiescargot...USA Today claimed this was the hardest puzzle ever
+Test passed
+
+in-reallyhardest...But maybe not.
+Test passed
+
+Passed 9 out of 9 test cases for sudoku
+Evaluation complete.
